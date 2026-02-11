@@ -1,0 +1,37 @@
+h1{
+  border: dashed;
+  border: dotted;
+  border: solid;
+  border: double;
+
+  border: ridge;
+    border: groove;
+    border: inset;
+    border: outset;
+
+border-color: aquamarine;
+  border-width: 10px;
+
+  /* shotand lekhar niom */
+
+  border: inset 10px aquamarine;
+
+  /* border round korar jonno */
+  border-radius: 5px ;
+
+  /* alada alada border deoyar jonno */
+  border-left: 10px dotted aquamarine;
+  border-right: 10px dotted aquamarine;
+  border-bottom: 10px dotted aquamarine;
+  border-top: 10px dotted aquamarine; 
+  /* ekhaneo border style er jaygay change kore dile akoi output dekhabe */
+
+
+  /* 4 pashe 4 rokom border deoyar jonno  */
+
+  border-left-style:dotted ;
+  border-right-style: dashed ;
+  border-top-style: inset ;
+  border-bottom-style: double ;
+
+}
