@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* width and height holo jokhon amra horizentally jokhon kono kisu setup korte jai tokhon take width bole end jokhon vertically kono kisu set up korte jai tokhon take bole height, width and height fixed vabe deoya jay and device er size onujay percentage vabeo deoya jay  */
+
+
+.parent{
+  background-color: aquamarine;
+  width: 700px; /* scroll bar chole asle tahole setake bad practice bole */
+  width: 92%; /* good practice */
+  margin: 20px auto;
+  padding: 2%;
+
+  /* akta porjay porjonto width fixed rakhar jonno */
+  max-width: 1140px;
+
+  /* height fixed use korle sudhu fixed ongsho tuku pabe, tar bahire kono kisu pabe na,  */
+
+ height: 300px;
+
+
+}
