@@ -1,0 +1,30 @@
+/* world a onk color ase jegula amader mone rakha possible na, tar jonno random color likhte hole akta # chinho diye color code ta likhte hobe, jekhane 0 holo minimum and f holo highest, etake bole hexcode, ato color code mone rakha possible na er jonno google theke jekono color er code amra copy kore ene bosate parbo */
+
+body{
+  background: url(img.jpg);
+}
+
+h2{
+  color: #000000;
+  
+  color: #00ff00;
+  color: #ff0000;
+  color: #ffffff;
+
+  /* lekhar color er moddhe opecity anar jonno */
+color: #73e98b42;
+
+/* color onno vabeo use kora jay, seta holo rgb, rgb er moddhe 255 holo sorboccho */
+color: rgb(255, 255, 255);
+color: rgb(0, 255, 0);
+color: rgb(225, 0, 0);
+
+/* rgb er moddhe opecity dekhte hole rgba use korte hobe */
+color: rgba(255, 255, 0, 0.1);
+
+}
+
+/* ready color use korte hole flatuicolor website best */
+h2{
+  color: #3498db92;
+}
