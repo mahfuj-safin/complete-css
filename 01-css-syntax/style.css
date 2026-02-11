@@ -1,3 +1,15 @@
-div{
-  background-color: aqua;
+/* 
+h2 => selector
+colo=> property
+red => value
+*/
+
+h2{
+  color: red; /* declaration */
+  font-size: 40px; /* declaration */
+}
+
+p{
+  color: blue;
+  font-size: 18px;
 }
