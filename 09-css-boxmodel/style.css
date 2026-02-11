@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  background-color: antiquewhite;
+
+  /* fixed width */
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid tomato;
+/* ekhane total width niyeche 300 + 10 + 10 + 20 + 20 + 10 + 10 = 380px */
+
+
+/* css box model a sudhu width a kaj kore nah, ekhane margin border padding sob gulo ak sathe kaje kore */
+
+}
+
+/* fluent width */
+
+div{
+  background-color: antiquewhite;
+  width: 23%;
+  margin: 1%;
+  padding: 2%;
+  border: 10px solid tomato;
+  float: left;
+
+}
