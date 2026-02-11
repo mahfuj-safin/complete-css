@@ -1,6 +1,66 @@
-#first{
-  background-color: aqua;
+/* 
+h2=> selector
+color=> property
+red=> value
+* => universal selector
+# => class selector
+. => id selector
+, => grouping 
+*/
+
+
+/* universal selector */
+*{
+  margin: 0;
 }
-.second{
-  font-size: 20px;
+
+
+h2{
+  color: red;
+  font-size: 40px;
+
+
+}
+p{
+  color: blue;
+  font-size: 18px;
+}
+
+/* basic selector */
+div{ 
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+/* parent er moddher child k select korar jonno amon vabe selector likhte hoy */
+div p{
+  color: black;
+}
+
+/* class select korar jonno . er pore cls name likhe curlybeses dite hobe */
+.text_bk{
+  color: red;
+}
+.first-div{
+  background-color: violet;
+}
+
+.first-div p{
+  color: yellow;
+}
+
+/* id select korar somay # er pore id er name likhte hobe */
+
+#big_div{
+  width: 400px;
+  height: 400px;
+}
+
+/* grouping, amra chaile ekdhik id and class and indivitual selector ak sathe group kore use korte pari */
+
+#big_div, #big_div_2, .big_div_3{
+  width: 400px;
+  height: 400px;
 }
