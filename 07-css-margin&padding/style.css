@@ -1,0 +1,47 @@
+/* 
+parent div er under je child div ta thakbe setar durotto margin, and child div er moddhe ja kisu thakbe setar 4 paser durotto k bole padding, margin and padding eta static na eta holo dynamic, eta parent and child div er upore depend kore
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.parent{
+  background-color: #34495e;
+  width: 300px;
+
+  margin-top: 50px;
+  padding-top: 50px;
+
+  margin-left: 50px;
+  padding-left: 50px;
+
+padding-bottom: 20px;
+
+padding: 25px;
+margin: 20px auto;
+}
+
+/* .child{
+  background-color: #9b59b6;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+} */
+/* margin hocche box er bahirer area and padding hocche box er vitorer area */
+
+.child{
+  background-color: #9b59b6;
+  margin: 25px 30px;
+  padding: 20px 30px;
+
+  /* jodi akta comand er maddhome sob kisu dite cha  */
+  margin: 25px; /* ekhane 4 pasei 25 px */
+  padding: 25px; /* ekhane 4 pasei 25 px */
+}
