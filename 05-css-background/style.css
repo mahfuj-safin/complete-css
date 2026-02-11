@@ -1,0 +1,41 @@
+body{
+  background: url(img.jpg);
+
+  /* background img thik rakhte  */
+  background-attachment: fixed;
+}
+
+/* jodi background a opesity er dorkar hoy tahole rgba use korte hobe  */
+.first_div{
+  background-color:rgba(26, 188, 156, 0.5);
+
+  /* jodi background a img er dorkar hoy */
+  background-image: url(css.jpg);
+  color: white;
+
+  /* img er size control korar jonno  */
+  background-size: 150px 150px;
+
+  /* img repeat control korar jonno */
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+
+  /* background possition contro korar jonno */
+  background-position: top left;
+  background-position: top right;
+  background-position: bottom right;
+  background-position: bottom left;
+  background-position: center;
+  background-position: top center;
+  background-position: bottom center;
+  background-position: left center;
+  background-position: right center;
+
+  /* static vabe img control korar jonno  */
+  background-position: 20px 25px;
+  background-position: center;
+
+  /* background akta line a set korar jonno shortand version holo */
+  background: url(css.jpg) #1abc9c no-repeat center 150px 150px;
+}
