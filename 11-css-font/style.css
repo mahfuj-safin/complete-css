@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&display=swap');
+
+
+
+h1{
+  font-family: serif; /* default*/
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy;
+
+
+  /* serif font */
+  font-family: 'Times New Roman';
+  font-family: georgia;
+
+
+  /* sans serif font */
+  font-family: arial;
+  font-family: verdana;
+
+    /* monospace font */
+      font-family: 'Courier New';
+       
+    /* fantasy font */
+    font-family: papyrus;
+
+       /* cursive font */
+           font-family: Brush Script MT;
+
+
+}
+
+/* font size thik kora jonno */
+h2{
+  font-size: 100%;
+  font-size: 25px;
+  font-size: 2em; /* 1em = 16px*/
+}
+
+/* font style */
+h2{
+  /* font-style: italic;
+  font-style: oblique; */
+}
+
+/* font weight */
+
+h2{
+  font-weight: normal; /* default */ 
+  font-weight: bold;
+}
+
+h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 400;
+  font-weight: 500;
+}
+
+h3{
+    /* font-family: "Playwrite NZ Basic Guides", cursive; */
+    font-weight: 1000;
+}
+h4{
+  font-family: "Chango", sans-serif;
+  font-size: 50px;
+}
+ 
+/* font varient  */
+h5{
+  font-size: 50px;
+  font-variant: small-caps;
+}
