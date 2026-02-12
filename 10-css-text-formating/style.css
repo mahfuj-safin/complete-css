@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+
+  /* text align */
+  color: #1abc9c;
+  text-align: center;
+  text-align: right;
+  text-align: left; /* default*/
+}
+p{
+  margin-bottom: 20px;
+}
+.one{
+
+  /* kono text er last line a alignment deoyar jonno */
+  text-align-last: center;
+}
+.two{
+  /* every line center */
+  text-align: center;
+}
+
+/* text direction */
+.three{
+  font-size: 30px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/* vertical align er jonno */
+
+.four{
+vertical-align: baseline; /* default */
+vertical-align: text-top;
+vertical-align: text-bottom;
+
+}
+
+a{
+  font-size: 25px;
+  text-decoration: underline; /* default*/
+  text-decoration: overline;
+  text-decoration: none;
+  text-decoration: line-through;
+  text-decoration: overline underline line-through;
+}
+
+h2{
+  text-transform: capitalize; 
+  text-transform: lowercase;
+  text-transform: uppercase;
+
+  /* letter spacing control korar jonno */ 
+  letter-spacing: 10px;
+  letter-spacing: -10px;
+  letter-spacing: 2px;
+
+
+/* text er moddhe shadow use korar jonno */
+  text-shadow: 0px 5px 5px #ddd;
+
+
+}
+p{
+  text-indent: 50px;
+  /* letter-spacing: 2px; */
+
+  font-size: 20px;
+  line-height: 25px;
+}
