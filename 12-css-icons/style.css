@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+i{
+  color: #ddd;
+  background: tomato;
+  padding: 15px;
+  font-size: 15px;
+ margin: 15px 50px;
+
+}
+.material-symbols-outlined{
+    color: #ddd;
+  background: tomato;
+  padding: 15px;
+  font-size: 15px;
+ margin: 15px 50px;
+}
