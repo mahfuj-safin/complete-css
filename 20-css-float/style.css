@@ -1,0 +1,106 @@
+/* div{
+  background: #2d3436;
+  color: azure;
+  padding: 20px 5%;
+  width: 90%;
+  margin-bottom: 10px;
+  overflow: hidden; bad practice
+  float: left;
+} */
+
+/* img{ */
+  /* float: none;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px; */
+
+  /* float use kore right a neoyar jonno */
+  /* float: right;
+  margin-left: 15px;
+  margin-bottom: 15px; */
+
+  /* float use kore center a neoyar jonno  */
+  /* float: none;
+  margin: 0 auto 15px;
+  display: block; */
+/* } */
+
+/* img{
+  float: none;
+  display: block;
+  margin: 0 auto ;
+} */
+/* img{
+  float: inherit; eta parent theke float niye ney
+  display: block;
+  margin: 0 auto ;
+} */
+
+.div{
+  background: #2d3436;
+  color: azure;
+  padding: 20px 1%;
+  width: 30%;
+  margin-bottom: 10px;
+  /* overflow: hidden; bad practice */
+  float: left;
+  margin-left: 5px;
+}
+
+img{
+  float: inherit; /*eta parent theke float niye ney*/
+  display: block;
+  margin: 0 auto ;
+}
+.parent{
+  border: 5px solid red;
+  overflow: hidden; /* float use korle tar parent div a overflow use korte hoy jeta bad practice*/
+  overflow: auto;
+}
+
+
+/* bad practice for real world */
+#nav{
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+    background: #0984e3;
+}
+#nav li{
+  float: left;
+}
+#nav li a{
+  display: inline-block;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  
+}
+#nav li a:hover{
+background: #ff7675;
+  
+}
+
+
+/* good practice for real world  */
+#display{
+  background: #55efc4;
+  margin: 0 0 15px;
+  padding: 0;
+  list-style-type: none;
+}
+#display li{
+  display: inline-block;
+}
+#display li a{
+  display: inline-block;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  
+}
+#display li a:hover{
+background: #ff7675;
+  
+}
