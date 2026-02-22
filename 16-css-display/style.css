@@ -1,0 +1,31 @@
+h1, 
+p, 
+span,
+a, 
+h3{
+  background: tomato; /* jokhon kono tag puro area niye ney tokhon take block element bole, h1 ekti block element, and jokhon kono tag tar joto tuku area dorkar thik toto tuku area ney tokhon take bole inline block element,  always block element er vitore inline block element neoya uchit*/
+}
+
+/* kono block element k inline block element banate hole */
+h1{
+  display: inline-block;
+}
+
+/* kono inline block element k block element banate hole */
+span{
+  display: block;
+}
+a.btn{
+  background: violet;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+    display: inline-block;
+}
+a.btn:hover{
+  background: #1abc9c;
+  font-weight: bold;
+  color: black;
+
+}
