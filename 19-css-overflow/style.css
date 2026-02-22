@@ -1,0 +1,11 @@
+.main{
+  background: #2d3436;
+  color: tomato;
+  padding: 20px 5%;
+  width: 90%;
+  height: 200px;
+  overflow: visible; /* default*/
+  overflow: hidden;
+  overflow: auto;
+
+}
