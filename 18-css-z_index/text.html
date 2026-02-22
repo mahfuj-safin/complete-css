@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #hero_area {
+      background-image: url(pick2.jpg);
+      background-size: cover;
+      padding: 200px 20px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      position: relative;
+      z-index: 1;
+    }
+
+    #hero_area h2 {
+      font-size: 30px;
+      color: white;
+      margin-bottom: 0;
+    }
+
+    #hero_area p {
+      font-size: 20px;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    #hero_area .btn {
+      font-size: 15px;
+      color: white;
+      margin-bottom: 20px;
+      text-decoration: none;
+      background: #9b59b6;
+      padding: 12px 30px;
+      border-radius: 10px;
+      font-family: sans-serif;
+      display: inline-block;
+      border: 2px solid #ddd;
+    }
+
+    #hero_area .btn:hover {
+      background: #2ecc71;
+    }
+
+    .bg {
+      position: absolute;
+      background: black;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.4;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="hero_area">
+    <div class="bg"></div>
+    <h2>Hello</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, consequuntur.</p>
+    <a class="btn" href="">Contact Us</a>
+  </section>
+
+</body>
+
+</html>
