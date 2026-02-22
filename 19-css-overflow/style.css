@@ -7,5 +7,8 @@
   overflow: visible; /* default*/
   overflow: hidden;
   overflow: auto;
+  /* overflow: scroll;
+  overflow-y: ;
+  overflow-x: ; */
 
 }
