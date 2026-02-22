@@ -1,0 +1,48 @@
+a{
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+}
+
+
+a:visited{
+  color: brown;
+}
+
+a:hover{
+  color: aquamarine;
+}
+
+/* click korar moment */
+a:active{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* click kore chere deoyar pore focus a thakbe */
+a:focus{
+  color: blueviolet;
+  font-size: 16px;
+  background: black;
+  padding: 10px;
+}
+
+a.btn{
+text-decoration: none;
+background: red;
+border: 2px solid red;
+color: white;
+padding: 10px 25px;
+display: inline-block;
+border-radius: 35px;
+font-family: sans-serif;
+
+}
+
+a.btn:hover{
+  background: rgba(225, 0, 0, 0.2);
+  color: black;
+}
