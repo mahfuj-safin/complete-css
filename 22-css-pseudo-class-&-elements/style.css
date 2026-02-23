@@ -1,0 +1,52 @@
+/* pseudo class */
+a:hover{
+  color: tomato;
+}
+a:visited{
+  color: purple;
+}
+/* li:first-child{
+  color: red;
+}
+li:last-child{
+  color: red;
+} */
+/* li:nth-child(12){
+  color: blueviolet;
+} */
+li:nth-child(2n + 1){
+  color: blueviolet;
+}
+
+
+/* pseudo element */
+body{
+  background: aquamarine;
+  background-image: url(pick2.jpg);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body::before{
+  content: "element";
+  background-image: url(pick2.jpg);
+  background-size: 100px 300px;
+}
+body::after{
+  content: "element";
+  background-image: url(pick2.jpg);
+  background-size: 100px 300px;
+}
+
+p::first-line{
+  color: brown;
+  font-weight: bold;
+  font-size: 35px;
+}
+p::first-letter{
+ font-size: 60px;
+}
+p::selection{
+  background: tomato;
+  color: white;
+}
