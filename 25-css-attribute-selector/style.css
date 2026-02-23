@@ -1,0 +1,52 @@
+body{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* attribute soho select korar jonno */
+a[target]{
+  text-decoration: none;
+  color: tomato;
+}
+
+/* attribute er moddher value k select korar jonno */
+a[target='_self']{
+  color: aqua;
+  font-size: 35px;
+}
+a[title~='Mahfujur']{
+  color: violet;
+  font-weight: bold;
+}
+a[title~='safin']{
+  color: purple;
+ font-size: 30px;
+}
+
+/* class child select korar jonno  */
+
+div[class|="child"]{
+  width: 100px;
+  height: 100px;
+  background: violet;
+  margin-bottom: 20px;
+}
+
+/* child lekha ta thaklei kaj korbe */
+div[class^="child"]{
+  width: 100px;
+  height: 100px;
+  background: violet;
+  margin-bottom: 20px;
+}
+
+/* cls er name er last dui tin ta letter select korar jonno */
+
+div[class$='ial']{
+  background: aqua;
+}
+
+/* class er name er moddher je kono letter select korar jonno  */
+div[class*='erv']{
+  background:red;
+}
