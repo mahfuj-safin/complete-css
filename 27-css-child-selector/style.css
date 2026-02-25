@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+}
+.parent{
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+.child{
+  background: #9b59b6;
+  width: 50px;
+  padding-top: 10px;
+  height: 38px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+.child p{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* nth child */
+/* .child:first-child{
+  background: #1abc9c;
+}
+.child:last-child{
+  background: #e74c3c;
+}
+.child:nth-child(2){
+  background: #f1c40f;
+} */
+
+
+/* bijor gula select korar jonno */
+ /* .child:nth-child(odd){
+  background: #34495e;
+ } */
+
+ /* jor gula select korar jonno */
+ /* .child:nth-child(even){
+  background: #34495e;
+ } */
+
+/* koyekta songkha bad diya select korar jonno */
+ .child:nth-child(n + 2){
+  background: #34495e;
+ }
+
+
+ /* form style */
+ form{
+  margin-top: 25px ;
+  margin-left: 10px;
+ }
+ input[type="text"]{
+  border: 1px solid #ddd;
+  padding: 15px 25px;
+  color: black;
+  font-size: 14px;
+  border-radius: 5px;
+  float: left;
+ }
+ input[type="Button"]{
+  background: #e74c3c;
+  border: 1px solid #e74c3c;
+  padding: 15px 25px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+ }
+ input:not(:placeholder-shown) + input[type="button"]{
+  display: block;
+ }
